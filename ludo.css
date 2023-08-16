@@ -1,0 +1,125 @@
+* {
+  margin: 0px;
+}
+body {
+  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+
+  font-family: "Nunito", sans-serif;
+}
+
+#main-area {
+  background-color: #ffff;
+  height: 594px;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+.native0 {
+  background-color: #dfb4c0;
+  opacity: 0.96;
+  display: inline-block;
+  float: left;
+  width: 50%;
+  height: 594px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  text-align: center;
+}
+.native1 {
+  background-color: #c2568cef;
+  opacity: 1.5;
+  height: 594px;
+  display: inline-block;
+  width: 50%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  text-align: center;
+}
+.current0 {
+  background-color: #bf2e34;
+  width: 200px;
+  margin: auto;
+  height: 120px;
+  border-radius: 15px;
+  margin-left: 150px;
+  margin-top: 380px;
+  position: absolute;
+  color: #ffff;
+}
+.current1 {
+  background-color: #bf2e34;
+  width: 200px;
+  margin: auto;
+  height: 120px;
+  border-radius: 15px;
+  margin-left: 150px;
+  margin-top: 380px;
+  position: absolute;
+  color: #ffff;
+}
+
+.player-title {
+  margin-top: 80px;
+  margin-left: 160px;
+  position: absolute;
+  font-size: 40px;
+  font-weight: 500;
+}
+.score {
+  margin-top: 160px;
+  margin-left: 220px;
+  position: absolute;
+  font-size: 80px;
+  font-weight: 500;
+  color: #bf2e34;
+}
+.current-p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.score-p {
+  margin-top: 10px;
+  font-size: 30px;
+}
+.dice {
+  bottom: 455px;
+  left: 280px;
+  position: relative;
+}
+.roll-dice {
+  bottom: 305px;
+  left: 135px;
+  position: relative;
+  width: 140px;
+  height: 50px;
+  border-radius: 30px;
+  border-style: none;
+  font-size: 18px;
+}
+.new-game {
+  bottom: 680px;
+  position: relative;
+  left: 420px;
+  width: 140px;
+  height: 50px;
+  border-radius: 30px;
+  border-style: none;
+  font-size: 18px;
+}
+.hold {
+  bottom: 240px;
+  position: relative;
+  left: 15px;
+  width: 100px;
+  height: 50px;
+  border-radius: 30px;
+  border-style: none;
+  font-size: 18px;
+}
+.winer {
+  background-color: rgb(4, 104, 70);
+}
+.active {
+  background-color: green;
+}
